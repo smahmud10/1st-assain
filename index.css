@@ -1,0 +1,41 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+
+}
+
+.Help-section{
+    text-align: center;
+    color: white;
+    background-image: url(./images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    
+    
+}
+.Help-title{
+
+    font-size: 65px;
+  
+    margin-top:0px;
+    padding: 30px;
+}
+section p{
+  font-size: 16px;
+    margin-bottom: 40px;
+
+}
+.btn{
+    color: white;
+    background-color:rgb(0, 252, 206);
+    margin-top: 30px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+.dgionate-content{
+
+}
