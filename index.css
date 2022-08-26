@@ -166,7 +166,7 @@ form {
 }
 .update-box .input-btn {
   margin-left: -4px;
-  background: #00ff91;
+  background-color: rgb(0, 252, 206);
   border-radius: 0px 6px 6px 0px;
   font-size: 15px;
   color: #fff;
