@@ -1,87 +1,193 @@
-body{
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0 auto;
-
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0 auto;
 }
 
-.Help-section{
-    text-align: center;
-    color: white;
-    background-image: url(./images/donation13.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 550px;
-    
-    
+.Help-section {
+  text-align: center;
+  color: white;
+  background-image: url(./images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
 }
-.Help-title{
+.Help-title {
+  font-size: 65px;
 
-    font-size: 65px;
-  
-    margin-top:0px;
-    padding: 30px;
+  margin-top: 0px;
+  padding: 30px;
 }
-section p{
+section p {
   font-size: 16px;
-    margin-bottom: 40px;
-
+  margin-bottom: 40px;
 }
-.btn{
-    color: white;
-    background-color:rgb(0, 252, 206);
-    margin-top: 60px;
-    padding: 15px 30px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 14px;
-
+.btn {
+  color: white;
+  background-color: rgb(0, 252, 206);
+  margin-top: 60px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
 }
-.amaount-content{
-    margin-top: 150px;
-    margin-bottom: 150px;
+.amaount-content {
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
-.donate-content{
-    text-align: center;
+.donate-content {
+  text-align: center;
+}
+.h1-title {
+  font-size: 65px;
+}
+.taka-section {
+  display: flex;
+  justify-content: center;
+}
+.taka-card {
+  background-color: whitesmoke;
+  margin: 20px;
+  padding: 20px 50px;
+  border: 1px solid s;
+  border-radius: 10px;
+}
+.taka-card:hover {
+  background-color: rgb(71, 246, 246);
+  color: white;
+  translate: 0px -10px;
+}
+.input-feild {
+  text-align: center;
+  border: none;
+}
+.input-feild input {
+  width: 60%;
+  padding: 20px 50px;
+  border: none;
+  text-align: center;
+  border-bottom: 1px solid blue;
+  margin-bottom: 60px;
+}
+.other-btn {
+  margin-left: 600px;
+}
+.card-section {
+  margin-top: 100px;
+}
+.card-title {
+  text-align: center;
+  margin: 10px;
+}
+.card-title h1 {
+  font-size: 60px;
+}
+.card-content {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  margin-top: 55px;
+}
+.card {
+  width: 250px;
+  height: 352px;
+  margin: 10px;
+  padding: 10px 30px;
+  background-color: #4f9da61a;
+  border-radius: 15px;
+}
+.card2 {
+  width: 250px;
+  height: 352px;
+  margin: 10px;
+  padding: 10px 30px;
+  background-color: #ff59591a;
+  border-radius: 15px;
+}
+.card3 {
+  width: 250px;
+  height: 352px;
+  margin: 10px;
+  padding: 5px 30px;
+  background-color: #ecf19e;
+  border-radius: 15px;
+}
+.flex-parent3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+h1 {
+  font-size: 54px;
+  line-height: 0.4;
+}
 
 
-}
-.donate-content h3{
-    font-size: 30px;
 
+.update-content {
+  width: 700px;
+  margin: auto;
+  margin-top: 150px;
 }
-.taka-section{
-    display: flex;
-    justify-content:center;
-}
-.taka-card{
-    background-color:whitesmoke;
-    margin: 20px;
-    padding: 20px 50px;
-    border: 1px solid s;
-    border-radius: 10px ;
-    
-}
-.taka-card:hover{
-    background-color: rgb(71, 246, 246);
-    color: white;
-    translate:0px -5px;
 
+.update-title {
+  text-align: center;
+  margin-bottom: 40px;
 }
-.input-feild{
-    text-align: center;
-    border:none;
-    
+.update-title h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
 }
-.input-feild input{
-    width: 60%;
-    padding:20px 50px;
-    border:none;
-    text-align: center;
-    border-bottom: 1px solid blue;
-    margin-bottom: 60px;
+.update-title p {
+  color: #00000099;
 }
-.other-btn{
-    margin-left:600px;
-    
+.update-box {
+  background: #f6a30045;
+  height: 100px;
+  text-align: center;
+  padding-top: 60px;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+.update-box .email-box {
+  border: none;
+  outline: none;
+  padding: 12px;
+  width: 220px;
+  border-radius: 6px 0px 0px 6px;
+  background: #d9d9d9;
+  font-weight: bold;
+  font-size: 14px;
+}
+.update-box .input-btn {
+  margin-left: -4px;
+  background: #ffa500;
+  border-radius: 0px 6px 6px 0px;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  padding: 11.5px 30px 11px 30px;
+}
+footer{
+  background-color: black;
+  margin-top: 100px;
+}
+footer h1 {
+  font-family: "Brush Script MT", cursive;
+  text-align: center;
+  color: red;
+  font-weight: 700;
+ 
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+footer p {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+ 
 }
